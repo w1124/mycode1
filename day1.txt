@@ -15,12 +15,12 @@
    15  touch readme.txt
    16  git add *
    17  git commit -m "this is my first commit"
-   18  git config --global w1124 "waqas.ch1@gmail.com"
-   19  git config --global user.email "waqas.ch1@gmail.com"
+   18  git config --global w1124 "@.com"
+   19  git config --global user.email "1@.com"
    20  git commit -m "this is my commit"
    21  ls
    22  git commit -m "this is my commit"
-   23  git config --global user.email "waqas.ch1@gmail.com"
+   23  git config --global user.email "@l.com"
    24  git commit -m "this is my commit"
    25  git add * 
    26  git commit -m "this is my commit"
@@ -223,17 +223,17 @@
   223  cat setup.sh
   224  vim iftest2.py 
   225  ls
-  226  ssh bender@10.10.2.3
-  227  ssh fry@10.10.2.4
+  226  ssh bender@2.3
+  227  ssh fry@10.
   228  cd
   229  cd .ssh
   230  ls
   231  cat config 
   232  vim config
-  233  ssh bender@10.10.2.3
+  233  ssh bender@.2.3
   234  ls
   235  cat known_hosts 
-  236  ssh bender@10.10.2.1
+  236  ssh bender@.2.1
   237  ls
   238  rm known_hosts 
   239  ls
@@ -299,7 +299,7 @@
   299  cd -
   300  python3 sftpmover.py 
   301  history|grep bender
-  302  ssh bender@10.10.2.3
+  302  ssh bender@.2.3
   303  cd ..
   304  git add *
   305  history > day1.txt
